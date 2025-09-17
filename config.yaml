@@ -1,0 +1,22 @@
+polling_interval: 60
+logzio:
+  listener_host: "listener-ca.logz.io"
+  shipping_token: "oqxkiLuTyhgnPZSMmiogdmduHXGxIeMl"
+sources:
+  - type: openweathermap
+    api_key: "015219674937e98f5ed5fa6bf0c8504e"
+    cities:
+      - Rome
+      - Toronto
+      - Mumbai
+  - type: weatherapi
+    api_key: "f9e609aa595646f6a48151501251609"
+    cities:
+      - Dublin
+      - Tel Aviv
+      - Paris
+  - type: csv
+    file_path: "weather_data.csv"
+    cities:
+      - Berlin
+      - Sydney

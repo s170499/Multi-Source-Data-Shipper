@@ -1,0 +1,7 @@
+# Main dependencies
+PyYAML==6.0
+requests==2.32.0
+
+# Dev/test dependencies
+pytest==7.4.0
+flake8==6.1.0
